@@ -2,8 +2,8 @@
     <% if (page.path == "index.html") { %>
     <div class="hero">
         <div class="group">
-            <h2 class="sub"><%= config.subtitle %></h2>
-            <h2 class="large"><%- config.description %></h2>
+            <h2 class="sub">The Team Blog</h2>
+            <h2 class="large">Bingyan Studio</h2>
         </div>
     </div>
 
@@ -23,7 +23,7 @@
                     <% if (post.categories && post.categories.length) { %>
                     <div class="categories<%= theme.uppercase_categories ? ' text-uppercase' : '' %>">
                     <% post.categories.forEach((category) => { %>
-                        <span><%= category.name %></span>
+                        <span data-group="<%= category.name %>"><%= category.name %></span>
                     <% }) %>
                     </div>
                     <% } %>
