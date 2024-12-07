@@ -62,10 +62,19 @@ hr,
 .content > .katex,
 .about {
   max-width: 800px;
-  font-weight: normal;
   margin-left: auto;
   margin-right: auto;
   padding: 0 16px;
+}
+
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6,
+.title {
+  font-weight: 600;
 }
 
 .content p img,

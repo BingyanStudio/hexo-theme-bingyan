@@ -1,5 +1,9 @@
-.meta {
+.meta:nth-child(1) {
   margin-top: 128px;
+}
+
+.meta {
+  margin-top: 64px;
 }
 
 .meta .type {

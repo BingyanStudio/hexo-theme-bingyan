@@ -64,7 +64,7 @@
   max-height: 7em;
   color: var(--card-title);
   overflow: hidden;
-  font-weight: normal;
+  font-weight: 600;
 }
 
 .post-list-item .content {
@@ -86,7 +86,7 @@
 .post-list-item .categories {
   color: var(--link);
   margin-bottom: 6px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .post-list-item .categories span {
