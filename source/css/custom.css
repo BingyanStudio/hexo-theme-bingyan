@@ -1,0 +1,18 @@
+.about-card {
+    display: grid;
+    grid-template-columns: minmax(128px, 10%) 1fr;
+    padding: 16px 24px;
+
+    img {
+        height: 100%;
+        object-fit: contain;
+    }
+
+    h1 {
+        margin: 8px 0;
+    }
+
+    p {
+        margin: 0;
+    }
+}

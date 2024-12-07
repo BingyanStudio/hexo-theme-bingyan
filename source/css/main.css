@@ -1,5 +1,4 @@
-@import url("/fonts/SourceHanSansCN-Regular/result.css");
-@import url("/fonts/SourceHanSansCN-Bold/result.css");
+@import url("/fonts/SourceHanSansCN-VF/result.css");
 
 * {
     transition: color 0.2s, background-color 0.2s;
@@ -47,7 +46,7 @@ a:visited {
     color: var(--card-title);
     text-decoration-line: underline;
     text-underline-offset: -3px;
-    text-decoration-thickness: 10px;
+    text-decoration-thickness: 8px;
     text-decoration-color: #ee921185;
     text-decoration-skip-ink: none;
 }
