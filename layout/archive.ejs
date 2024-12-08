@@ -1,9 +1,5 @@
-<div class="container">
+<div class="container archive-container">
     <div class="meta">
-        <div class="type">
-            <%= is_category() ? __('category') : '' %>
-            <%= is_tag() ? __('tag') : '' %>
-        </div>
 
         <h2 class="section-title<%= theme.capitalize_tags && is_tag() ? ' text-capitalize' : '' %>"><%= is_category() ? page.category : '' %><%= is_tag() ? (theme.hashtag_prefix_before_tags ? '#' : '') + page.tag : '' %><%= is_archive() ? __('archives') : '' %></h2>
     </div>
