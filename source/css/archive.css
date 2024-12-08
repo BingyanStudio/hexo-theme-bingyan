@@ -14,3 +14,14 @@
   margin-right: auto;
   padding: 0 16px;
 }
+
+@media screen and (max-width: 800px) {
+  .meta:nth-child(1) {
+    margin-top: 96px;
+  }
+
+  .meta {
+    margin-top: 48px;
+  }
+
+}

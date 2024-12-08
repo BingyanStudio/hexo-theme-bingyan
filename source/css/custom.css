@@ -25,6 +25,48 @@
     padding: 0 30px;
 }
 
+@media screen and (max-width: 800px) {
+    .card{
+        margin: 18px 0;
+        padding: 24px 32px 20px 32px;
+    }
+
+    .about-card {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .about-card p {
+        text-align: justify;
+        padding: 4px 0;
+    }
+
+    .about-card img {
+        width: 50px;
+    }
+
+    .card .actions{
+        display: inline-block !important;
+    }
+
+    .about-info{
+        padding: 0;
+    }
+
+    .member-card{
+        margin: 8px;
+        padding: 12px !important;
+    }
+
+    .card .title{
+        font-size: 18px;
+    }
+
+    .card .description{
+        font-size: 16px !important;
+    }
+}
+
 .actions .action-button-primary {
     padding: 6px 12px;
     border-radius: 32px;
@@ -43,6 +85,7 @@
 .card-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 16px;
 }
 
 .card-grid {
@@ -60,12 +103,7 @@
 @media screen and (max-width: 800px) {
     .card-grid {
         grid-template-columns: 1fr 1fr;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .card-grid {
-        display: block;
+        padding: 0;
     }
 }
 
@@ -76,33 +114,6 @@
     margin-bottom: 21px;
     transition: all 200ms ease;
     box-shadow: 0 10px 15px -5px rgb(0 0 0 / .05);
-}
-
-.card:nth-child(3n-2) {
-    margin-left: 0;
-    margin-right: 8px;
-}
-
-.card:nth-child(3n-1) {
-    margin-left: 8px;
-    margin-right: 8px;
-}
-
-.card:nth-child(3n) {
-    margin-left: 8px;
-    margin-right: 0;
-}
-
-@media screen and (max-width: 800px) {
-    .card:nth-child(2n-1) {
-        margin-left: 0;
-        margin-right: 8px;
-    }
-
-    .card:nth-child(2n) {
-        margin-left: 8px;
-        margin-right: 0;
-    }
 }
 
 @media screen and (max-width: 600px) {

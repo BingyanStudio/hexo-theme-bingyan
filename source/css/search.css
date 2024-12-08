@@ -1,5 +1,5 @@
 #searchbox {
-  margin: 60px 0 160px 0;
+  margin: 60px 0 0 0;
   display: block;
   outline: none;
   width: calc(100% - 16px* 2);

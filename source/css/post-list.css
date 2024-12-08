@@ -197,8 +197,32 @@
 
 .post-list.archives .post-list-item .cover-img {
   height: initial;
-  min-width: 180px;
   width: 40%;
   border-radius: 16px;
   flex-shrink: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .post-list-item .title{
+    font-size: 20px;
+  }
+  .post-list.archives .post-list-item .cover-img {
+    width: 0;
+  }
+
+  .post-list.archives .post-list-item .content{
+    padding: 18px 12px;
+  }
+
+  .post-list.archives .post-list-item{
+    margin: 0;
+    box-shadow: none;
+    background-color: transparent;
+    border-radius: 0;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .post-list.archives{
+    margin: 0 auto 20px auto;
+  }
 }
