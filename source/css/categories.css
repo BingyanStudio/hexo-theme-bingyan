@@ -3,7 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   .categories {
     grid-template-columns: 1fr 1fr;
   }

@@ -20,16 +20,17 @@
         animation-timeline: scroll();
         animation-range: 0 50svh;
     }
+
     @keyframes hero-exit {
-        from {
-        }
+        from {}
+
         to {
-          opacity: 0;
-          margin-top: calc(50svh);
-          margin-bottom: -50svh;
-          scale: 0.9;
+            opacity: 0;
+            margin-top: calc(50svh);
+            margin-bottom: -50svh;
+            scale: 0.9;
         }
-      }
+    }
 }
 
 .hero .group {
@@ -52,7 +53,7 @@
     transition: font-size 0.5s;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     .hero {
         background-size: 56vh;
         height: 88vh;

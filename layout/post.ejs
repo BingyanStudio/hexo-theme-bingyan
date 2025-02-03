@@ -17,18 +17,22 @@
         </div>
         <% } %>
 
-        <% if (!page.no_date) { %>
+        <h1 class="title"><%= page.title %></h1>
+
         <div class="date" id="date">
+            <%
+                var author = page.author
+                if (!author) { author='冰岩作坊' }
+            %>
+            <span class="author"><%= author %></span>
+            <% if (!page.no_date) { %>
             <span><%= ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'][page.date.month()] %></span>
             <span><%- page.date.date() %>,</span>
             <span><%- page.date.year() %></span>
+            <% } %>
         </div>
-        <% } %>
 
-        <h1 class="title"><%= page.title %></h1>
     </div>
-
-    <div class="divider"></div>
 
     <div class="content">
         <%- page.content %>
